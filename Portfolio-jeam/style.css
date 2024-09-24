@@ -1,0 +1,103 @@
+header {
+    background-color: purple;
+    padding: 30px;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 60px;
+}
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+.box {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+.box img{
+    width: 100px;
+}
+nav {
+    position: absolute;
+    top: 40px;
+    right: 0px;
+}
+nav a:hover {
+    color:rgb(165, 126, 42);
+    text-decoration: underline;
+}
+
+/* index */
+.home{
+    background-image: url(imagens/Fundo.png);
+    background-position: center;
+    background-size: cover;
+    padding: 300px 100px;
+}
+.home h1{
+    color: white;
+    text-align: center;
+    font-size: 100px;
+}
+
+/* creditos */
+.creditos{
+    margin: 10px;
+    text-align: center;
+}
+.creditos h1{
+    font-size: 50px;
+    margin: 0 0 100px;
+}
+.creditos p{
+    font-size: 20px;
+}
+#jeam{
+    width: 60%;
+}
+#luan{
+    width: 60%;
+}
+#celso{
+    width: 60%;
+}
+
+
+/*Pasta*/
+.pasta{
+    padding: 300px 100px;
+}
+.trabalhos{
+    position: absolute;
+    top: 200px;
+    left: 10px;
+}
+.trabalhos li {
+    display: inline;
+    margin: 0 0 0 60px;
+    
+}
+.trabalhos a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+.trabalhos a:hover{
+    color:rgb(165, 126, 42);
+    text-decoration: underline;
+}
+
+.rodape{
+    background-color: purple;
+    text-align: center;
+    color: white;
+}
+.rodape img{
+    width: 100px;
+}
